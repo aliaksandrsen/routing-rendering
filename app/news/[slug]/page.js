@@ -9,7 +9,6 @@ export default function NewsDetailPage({ params }) {
     return notFound();
   }
 
-  console.log('newsItem  newsItem:', newsItem);
   return (
     <article className="news-article">
       <header>
